@@ -27,7 +27,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.gitHub className="h-5 w-5" />
+                <Icons.gitHub className="size-5" />
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
@@ -42,7 +42,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.trailhead className="h-7 w-7 fill-current" />
+                <Icons.trailhead className="size-7 fill-current" />
                 <span className="sr-only">Trailhead</span>
               </div>
             </Link>
@@ -57,25 +57,10 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.linkedin className="h-5 w-5 fill-current" />
+                <Icons.linkedin className="size-5 fill-current" />
                 <span className="sr-only">LinkedIn</span>
               </div>
             </Link>
-            {/*<Link
-              href={siteConfig.links.soundcloud}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={buttonVariants({
-                  size: "icon",
-                  variant: "ghost",
-                })}
-              >
-                <Icons.soundcloud className="h-6 w-5 fill-current" />
-                <span className="sr-only">Soundcloud</span>
-              </div>
-              </Link>*/}
             <ThemeToggle />
           </nav>
         </motion.div>

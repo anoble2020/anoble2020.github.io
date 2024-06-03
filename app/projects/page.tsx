@@ -7,7 +7,6 @@ import GithubRepoCards from '@/components/github_repolist';
 async function fetchRepos() {
   const res = await fetch('https://api.github.com/users/anoble2020/repos?visibility=public&sort=updated&per_page=100');
   const data = await res.json();
-  console.log('data', data);
 
   const filteredRepos = data.filter((repo) =>
     repo.private === false

@@ -17,7 +17,7 @@ export default function IndexPage() {
           hello 👋
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        I'm a Salesforce and web app developer by trade. I'm also a father, adventurer, and music producer. Give me a 
+        I&apos;m a Salesforce and web app developer by trade. I&apos;m also a father, adventurer, and music producer. Give me a 
         <a href={`mailto: ${siteConfig.email}`}> shout</a> if you want to chat.
         </p>
       </div>

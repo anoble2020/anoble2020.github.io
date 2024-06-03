@@ -6,16 +6,16 @@ export const siteConfig = {
     "I'm a Salesforce developer & app designer by trade. I'm also a father, adventurer, and music producer.",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "about me",
+      href: "/about",
     },
     {
-      title: "Projects",
+      title: "projects",
       href: "/projects",
     },
     {
-      title: "About me",
-      href: "/about",
+      title: "music",
+      href: "/projects",
     },
   ],
   links: {

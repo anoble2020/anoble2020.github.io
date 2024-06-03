@@ -60,7 +60,7 @@ export function SiteHeader() {
                 <span className="sr-only">LinkedIn</span>
               </div>
             </Link>
-            <Link
+            {/*<Link
               href={siteConfig.links.soundcloud}
               target="_blank"
               rel="noreferrer"
@@ -74,7 +74,7 @@ export function SiteHeader() {
                 <Icons.soundcloud className="h-6 w-5 fill-current" />
                 <span className="sr-only">Soundcloud</span>
               </div>
-            </Link>
+              </Link>*/}
             <ThemeToggle />
           </nav>
         </div>

@@ -1,13 +1,13 @@
+
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "Alexander Noble",
-  description:
-    "I'm a Salesforce developer & app designer by trade. I'm also a father, adventurer, and music producer.",
+  email: "mr.alexandernoble@gmail.com",
   mainNav: [
     {
       title: "about me",
-      href: "/about",
+      href: "/",
     },
     {
       title: "projects",
@@ -15,7 +15,7 @@ export const siteConfig = {
     },
     {
       title: "music",
-      href: "/projects",
+      href: "/music",
     },
   ],
   links: {

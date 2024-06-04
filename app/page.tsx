@@ -24,16 +24,19 @@ export default function IndexPage() {
             </motion.span>
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-        I&apos;m a Salesforce and web app developer by trade. I&apos;m also a father, adventurer, and music producer. Give me a{' '} 
+        I&apos;m a Salesforce (and web/mobile app) developer by trade, working @ <a href="https://neuraflash.com"><b>Neuraflash</b></a>. I&apos;m also a father, adventurer, and music producer. Give me a{' '} 
         <motion.a href={`mailto: ${siteConfig.email}`}>
         <motion.button
           style={{
             outline: 'none',
             display: 'inline-block',
-            verticalAlign: 'middle'
+            lineHeight: 'normal',
+            height: 'auto',
+            verticalAlign: 'middle', // Add this line to vertically align the button
           }}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
+          className="hover:mx-1 align-middle" // Add the 'align-middle' class
         >        
           <b>shout</b>
         </motion.button>

@@ -6,7 +6,7 @@ export const siteConfig = {
   email: "mr.alexandernoble@gmail.com",
   mainNav: [
     {
-      title: "about me",
+      title: "about",
       href: "/",
     },
     {

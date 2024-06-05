@@ -2,9 +2,21 @@
 
 import { motion } from "framer-motion"
 import { siteConfig } from "@/config/site"
+import { useSwipeable } from 'react-swipeable';
+import { useRouter } from 'next/navigation';
 
 export default function IndexPage() {
+  const router = useRouter();
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => {
+      console.log('Swiped left');
+      router.push('/projects')
+    },
+    // Add more handlers for other directions if needed
+  });
   return (
+    <div {...handlers}>
     <motion.div
       initial={{ y: 10, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -47,5 +59,6 @@ export default function IndexPage() {
       </div>
     </section>
     </motion.div>
+    </div>
   )
 }

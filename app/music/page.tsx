@@ -18,9 +18,9 @@ const MusicPage = () => {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1832300319&color=%23d8c6be&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1969762884&color=%23d8c6be&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           ></iframe>
-        </div>
+          </div>
       </div>
       </motion.div>
     );
